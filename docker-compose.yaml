@@ -2,7 +2,7 @@ version: "3"
 services:
   ipfs:
     image: ipfs/go-ipfs:latest
-    hostname: ipfs_host1
+    hostname: ipfs
     volumes:
     - "./export:/export"
     - "./data/ipfs:/data/ipfs"
